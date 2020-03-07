@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.upload {
+    font-size: 100px;
+    color: #262626;
+}
