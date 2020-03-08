@@ -1,0 +1,21 @@
+.document {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.document p, .document h1 {
+    padding: 0 20px;
+    color: black;
+}
+
+.document button {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    width: 100px;
+}
