@@ -86,21 +86,6 @@ class Nav extends Component {
                 <FontAwesomeIcon icon={faInfo} />
               </button>
             </li>
-            {/* <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li> */}
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
             <li>
               <Link to="/" className="signout">
                 <FontAwesomeIcon icon={faSignOutAlt} />
