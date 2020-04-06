@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSave } from '@fortawesome/free-regular-svg-icons'
-import { faBars, faHighlighter, faCommentAlt, faInfo, faHistory , faStar} from '@fortawesome/free-solid-svg-icons'
+import { faBars, faHighlighter, faCommentAlt, faInfo, faHistory, faStar } from '@fortawesome/free-solid-svg-icons'
 import '../styles/nav.css'
 
 class Nav extends Component { 
@@ -55,17 +55,17 @@ class Nav extends Component {
                             <ul>
                                 <li> History &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FontAwesomeIcon className="icons" icon={faHistory}/></li>
                                 <div className="line"></div>
-                                <li> Document 1</li>
-                                <li> Document 2</li>
-                                <li> Document 3</li>
-                                <li> Document 4</li>
-                                <li> Document 5</li>
+                                <li> VC Document 5</li>
+                                <li> VC Document 4</li>
+                                <li> VC Document 3</li>
+                                <li> VC Document 2</li>
+                                <li> VC Document 1</li>
                                 <br/>
                                 <li> Favorites &nbsp; <FontAwesomeIcon className="icons" icon={faStar}/></li>
                                 <div className="line"></div>
-                                <li> Document 1</li>
-                                <li> Document 4</li>
-                                <li> Document 5</li>
+                                <li> VC Document 5</li>
+                                <li> VC Document 1</li>
+                                <li> VC Document 4</li>
                             </ul>
                         </div>
                     ) : (

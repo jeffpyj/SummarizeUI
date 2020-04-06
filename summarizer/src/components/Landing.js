@@ -30,12 +30,8 @@ class Landing extends Component {
         e.preventDefault()
         const username = e.target.username.value;
         const password = e.target.password.value;
-
-        if (username === 'admin' && password === 'admin') {
             this.props.history.push('/home')
-        } else {
-            console.log('fail')
-        }
+
     }
 
     render() {
