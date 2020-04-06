@@ -1,0 +1,66 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  background-color: #262626;
+  color: white;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 15px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.main-nav ul {
+  display: flex;
+}
+
+.main-nav ul li {
+  padding: 0 20px;
+  width: 5%;
+  cursor: pointer;
+}
+
+.signout {
+  margin-right: auto;
+}
+
+.main-nav ul li .buttons {
+  background-color: #262626;
+  padding: 0;
+  cursor: pointer;
+}
+
+.main-nav ul li a {
+  padding-bottom: 2px;
+  color: white;
+}
+
+.main-nav ul li a:hover {
+  border-bottom: 2px solid #262626;
+}
+
+.main-nav ul.main-menu {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.menu {
+  background-color: #262626;
+  color: #fff;
+  margin-top: 60px;
+  width: 25%;
+  padding-left: 28px;
+  padding-bottom: 20px;
+  position: absolute;
+}
+
+.line {
+  border-bottom: 1px solid #fff;
+  width: 65%;
+}
+
+.icons {
+  font-size: 13px;
+}

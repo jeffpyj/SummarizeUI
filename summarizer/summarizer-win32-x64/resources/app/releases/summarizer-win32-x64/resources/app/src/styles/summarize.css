@@ -1,0 +1,30 @@
+.summarize {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 520px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.summarize p {
+    color: #262626;
+}
+
+.summarize-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.strong {
+    font-weight: bold;
+    display: inline-block;
+    text-align: right;
+    width: 120px;
+    padding: 0 10px;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+}

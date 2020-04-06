@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|PT+Sans|Roboto|Rubik|Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'Open Sans', 'Lato', 'Roboto', 'PT Sans', 'Rubik', sans-serif;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+  
+a {
+    color: #262626;
+    text-decoration: none; 
+}
+  
+ul {
+    list-style: none;
+}
